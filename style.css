@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-white);
+    font-family: 'Inter', sans-serif;
+}
+
+a, a:hover, a:visited {
+    text-decoration: none;
+}
+
+button, a {
+    cursor: pointer;
+}
+
+:root {
+    --color-white: #ffffff;
+}
+
